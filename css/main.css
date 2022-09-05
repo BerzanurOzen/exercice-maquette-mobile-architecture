@@ -68,26 +68,36 @@ p,
   line-height: 26px;
   margin: 60px 77px 60px 0;
 }
+
+footer p {
+  font-family: HoeflerText-Regular;
+  font-size: 12px;
+  color: white;
+}
+footer {
+  background-color: black;
+  padding: auto;
+}
 a {
+  font-family: AppleSystemUIFont;
   font-size: 12px;
   color: #000000;
   text-align: center;
-}
-
-footer {
-  font-family: AppleSystemUIFont;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-}
-
-.back-project {
-  text-align: center;
-  margin: 10 auto;
 }
 .info p {
   font-family: AppleSystemUIFont;
   font-size: 12px;
   color: #000000;
   margin: 2px auto;
+}
+.source,
+footer {
+  font-family: HoeflerText-Regular;
+  font-size: 10px;
+  color: white;
+  text-align: left;
+  padding: 0px;
+}
+a.back {
+  text-align: center;
 }
